@@ -13,7 +13,7 @@ Backend server runs on http://localhost:8000/.
 ### 🚀 Quick Start
 1. With optional [Anaconda](https://www.anaconda.com/) installed, run `backend/setup.sh`. If not, run `pip3 install -r backend/requirements.txt`.
 2. Run `backend/database/setup.sh` to create required database and table.
-3. To start up backend, `python main.py` in `backend` folder.
+3. To start up backend, `python backend/main.py`.
 4. To teardown `conda` environment, run `backend/teardown.sh`.
 
 ## Frontend
