@@ -17,7 +17,7 @@ Backend server runs on http://localhost:8000/.
 4. To teardown conda environment, run `backend/teardown.sh`.
 
 ## Frontend
-Upon loading, it retrieves the latest count value. It has a button to increment the count in a database table and receives a push from backend. The only difference between SSE and WS is that SSE uses a EventSource to receive the latest count value, while WS uses a websocket.
+Upon loading, it retrieves the latest count value. It has a button to increment the count in a database table and receives a push from backend. The only difference between SSE and WS is that SSE uses a `EventSource` to receive the latest count value, while WS uses a `Websocket`.
 
 SSE frontend runs on http://localhost:4000/.<br>
 WS frontend runs on http://localhost:3000/.
