@@ -2,7 +2,7 @@
 
 
 ## Backend
-Backend uses `FastApi`. It handles count increment requests from clients to update database, retreives and returns the latests count value, sets up a listener for a PostgreSQL trigger on table change and broadcasts the latest count value to all WS and SSE clients.
+Backend uses `FastApi`. It handles count increment requests from clients to update database, retrieves and returns the latests count value, sets up a listener for a PostgreSQL trigger on table change and broadcasts the latest count value to all WS and SSE clients.
 
 Backend server runs on http://localhost:8000/.
 
