@@ -11,10 +11,10 @@ Backend server runs on http://localhost:8000/.
 * Python >= 3.12
 
 ### 🚀 Quick Start
-1. With optional [Anaconda](https://www.anaconda.com/) installed, run `backend/setup.sh`. If not, run `pip3 install -r backend/requirements.txt`.
+1. With optional [Anaconda](https://www.anaconda.com/) installed, run `source backend/setup.sh`. If not, run `pip3 install -r backend/requirements.txt`.
 2. Run `backend/database/setup.sh` to create required database and table.
 3. To start up backend, `python backend/main.py`.
-4. To teardown `conda` environment, run `backend/teardown.sh`.
+4. To teardown `conda` environment, run `source backend/teardown.sh`.
 
 ## Frontend
 Upon loading, it retrieves the latest count value. It has a button to increment the count in a database table and receives a push from backend. The only difference between SSE and WS is that SSE uses a `EventSource` to receive the latest count value, while WS uses a `Websocket`.
